@@ -94,6 +94,7 @@ fig.update_layout(  dragmode = 'lasso')
 fig.show()
 
 app = dash.Dash(__name__)
+server = app.server
 
 '''
 Row 1 = m_dropdown + sen_slider + sub_slider
